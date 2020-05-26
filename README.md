@@ -3,28 +3,18 @@
 DSC160 Data Science and the Arts - Final Project - Generative Arts - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
-- Firstname Lastname5, name5@ucsd.edu
+- Joseph Del Val, jdelval@ucsd.edu
+- Nathan Tsai, nhtsai@ucsd.edu
+- Jacob Benson, jtbenson@ucsd.edu
+- Hanbyul Ryu, h9ryu@ucsd.edu
+- Gabriel Zalles, gzalles@ucsd.edu
 
 ## Abstract
 
 (10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You need to replace the entire contents of this section with one to two paragraphs addressing the following:
-
-- What is your concept for a generative art project? 
-- What methods/networks/techniques will you employ (include links to technical precedents/code bases)
-- What training data (if any) will you use for your project? 
-- What kind of results do you hope that your system will produce?
-- How will you present your result/what form will your output take?
-- What if any challenges to you think may arise as you are working with this?
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
-- List three papers / art projects that are references for this work.
-
+Our project is to take a closer look at what artistic features define a group of similar artists or a specific art movement/period. We aim to take groups of artists and their works to train a model and generate a unique result representing the artists. As for our training data to start this project, it will consist of the collected paintings of all of the artists we have in question, such as the works of Dali, Van Gogh, and Picasso. Our result will be a collection of sets of GAN-generated images, each from their particular artist. These sets will ideally each have specific artistic features that define them, thus defining that artist.. We hope to see clear distinctions between the generated images from each artist / movement enough to where one could identify the artist based on the features of the generated image.
+	There may be some challenges in doing this, however. Many artists may have not composed a large number of paintings, making their works alone quite unsuitable for a training set for a GAN. If we are to combine several artists into one “movement” on which we run the     GAN, this dataset may end up quite heterogeneous. Moreover, some artists have had many distinct periods within their works, which can add some additional heterogeneity to the data. But, overall, this project is culturally interesting because it will reveal to us the discerning features of each art movement. Personally we were interested in what images would be created based on at least a large majority of each artist's complete works, considering each one went through many different phases and styles of work. This project will build off of the GAN material we have already covered in class and on assignment 3, and build off code such as the GAN notebook from class, and the scrape wikiArt notebook from class. https://github.com/rkjones4/GANGogh
 ## Data and Model
 
 (10 points) 
